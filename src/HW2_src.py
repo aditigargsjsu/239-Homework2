@@ -132,7 +132,7 @@ for a in range (0,len(test_data_vector)):
     else:
         classified_polarity_of_test_review='-1'
 
-    f4 = open("/Users/aditi/Downloads/answers_k5.dat","a+")
+    f4 = open("/Users/Downloads/answers_k5.dat","a+")
     f4.write(classified_polarity_of_test_review+"\n")
     f4.close()
 
