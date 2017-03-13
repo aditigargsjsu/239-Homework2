@@ -1,6 +1,6 @@
 
 import sys
-sys.path.append('/Users/aditi/anaconda/lib/python2.7/site-packages')
+sys.path.append('')
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -40,7 +40,7 @@ def get_cosine_similarity(array1,array2):
 # -------------------- #
 # FILTERING AND MOVING TEST AND TRAIN DATA IN A LIST. AND SAVING ALL THEIR POLARITIES IN A LIST
 
-f1 = open("/Users/aditi/Downloads/train.dat","r")
+f1 = open("/Users/Downloads/train.dat","r")
 x = f1.readlines()
 filtered_train_data_list = []
 for i in range(0, len(x)):
@@ -48,7 +48,7 @@ for i in range(0, len(x)):
     filtered_train_data_list.append(filtered_review)
 f1.close()
 
-f3 = open("/Users/aditi/Downloads/test.dat","r")
+f3 = open("/Users/Downloads/test.dat","r")
 y = f3.readlines()
 filtered_test_data_list = []
 for i in range(0, len(y)):
@@ -57,7 +57,7 @@ for i in range(0, len(y)):
 f3.close()
 
 total_polarities_set = []
-with open ("/Users/aditi/Downloads/train.dat","r") as f:
+with open ("/Users/Downloads/train.dat","r") as f:
     for line in f:
         total_polarities_set.append(line[0])
 
