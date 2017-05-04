@@ -1,5 +1,5 @@
-# 239-Homework2
-Amazon Review Classification
+
+#Amazon Review Classification
 
  Implement the Nearest Neighbor Classification algorithm
  Handle text data (reviews of Amazon baby products)
